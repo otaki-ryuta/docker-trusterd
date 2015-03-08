@@ -33,7 +33,7 @@ RUN cd /usr/local/src/ && \
 
 # install trusterd from GitHub
 RUN cd /usr/local/src/ && \
-    git clone git://github.com/matsumoto-r/trusterd.git && \
+    git clone https://github.com/matsumoto-r/trusterd.git && \
     cd trusterd && \
     make && \
     make install INSTALL_PREFIX=/usr/local
