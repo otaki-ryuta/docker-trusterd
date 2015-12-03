@@ -23,7 +23,8 @@ RUN apt-get update -y && apt-get install -y \
     pkg-config \
     python3.4-dev \
     rake \
-    zlib1g-dev 
+    zlib1g-dev \
+    python-setuptools
 
 # install qrintf from GitHub
 RUN cd /usr/local/src/ && \
